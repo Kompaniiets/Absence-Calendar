@@ -1,0 +1,256 @@
+body {
+    font-family: 'Open Sans', sans-serif!important;
+    font-size:11px;
+}
+.well{
+    background-color:#fff!important;
+    border-radius:0!important;
+    border:black solid 1px;
+}
+.form-group {
+    margin-bottom: 0px;
+}
+.col-xs-1 {
+    padding: 7px 0px 6px 0px;
+}
+.col-xs-2 {
+    width: 12%;
+    padding: 5px;
+}
+.col-xs-3 {
+    width: 20%;
+}
+.col-xs-4 {
+    width: 25%;
+    padding: 5px;
+}
+.row {
+    margin: 0px;
+}
+
+/* start login */
+.enter-form {
+    text-align: right;
+    margin: 6% 5%;
+}
+.form-control-ligin {
+    border-radius:0!important;
+    border: 1px solid #000;
+    width: 70%;
+    height: 30px;
+    padding: 0px 5px;
+    float: right;
+}
+.well.login-box {
+    max-width: 360px;
+    max-height: 198px;
+    min-width: 300px;
+    min-height: 198px;
+    border:#000000 solid 1px;
+    margin:0 auto;
+    margin-top:30px;
+    padding: 0px;
+}
+.well.login-box legend {
+    font-size:26px;
+    border-bottom: 1px solid #000000;
+}
+.well.login-box label {
+    width: 30%;
+    padding-right: 2%;
+    font-size: 15px;
+}
+div .login-box legend {
+    padding-left: 6%;
+}
+.well.login-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+.btn-default {
+    color: black;
+    background-color: #d6d4d4;
+    border-color: black;
+    border: 1px solid;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px;
+    margin-left: 70%;
+    margin-bottom: 4%;
+    width: 25%;
+}
+.alert-danger {
+    text-align: center;
+}
+/* end login */
+
+
+/* start modal window*/
+.form-control {
+    border-radius:0!important;
+    width: 100%;
+    height: 30px;
+    padding: 0px 7px;
+}
+.btn-submit {
+    margin-right: 15px;
+    float: right;
+}
+.radio-btn {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+}
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:16px;
+    height:16px;
+    border:1px solid black;
+    border-radius:50%;
+}
+input[type='radio']:before {
+    content:'';
+    display:block;
+    width:50%;
+    height:50%;
+    margin: 22.5% 0 0 22.5%;    
+    border-radius:50%;    
+}
+input[type='radio']:checked:before {
+    background:black;
+}
+.textArea {
+    width: 83%;
+    height: 100px;
+    resize: none;
+}
+.modal-textArea {
+    padding-left: 20px;
+}
+.modal-textArea label {
+    margin-left: 5px;
+    float: left;
+}
+.modal-content {
+    border-radius: 0px !important;
+}
+.add-dialog-content {
+    max-width: 300px;
+    max-height: 315px;
+    min-width: 300px;
+    min-height: 315px;
+}
+.modal-dialog-content {
+    max-width: 600px;
+    max-height: 468px;
+    min-width: 600px;
+    min-height: 468px;
+}
+#myModal_2 > addUser {
+    display: inline-block;
+}
+.modal-header .close {
+    color: black;
+    margin-top: 0rem;
+    width: 5%;
+}
+.modal-header {
+    padding: 10px;
+}
+.modal-body {
+    padding: 10px 15px;
+}
+.addClass {
+    height: 210px;
+}
+.addUser select {
+    height: 25px;
+}
+.modal-footer {
+    padding: 0px 15px 10px;
+    border: 0px;
+}
+.checkbox label {
+    margin-bottom: 8px;
+    padding-left: 0px;
+    display: block;
+    font-weight: normal;
+    cursor: pointer;
+    float: right;
+}
+.checkbox input[type="checkbox"] {
+    margin-left: 10px;
+}
+label {
+    font-weight: normal;
+    padding-left: 5px;
+}
+.select-style {
+    height: 25px;
+}
+.modalDiv label{
+    vertical-align: top;
+    text-align: right;
+    margin: 1% 2% 0.5% 0;
+    width: 15%;
+}
+#dt-check{
+    text-align: left;
+}
+.btn-primary {
+    color: black;
+    background-color: #c1c1c1;
+    border-color: #000000;
+    border-radius: 0px;
+}
+.modal-container button {
+    float: right;
+    width: 100px;
+}
+.todayDate {
+    font-family: serif;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+#time-check, #dt-check, #date-check, #dt-check, #phone_checkbox, #slack_email_checkbox, #work_checkbox, .select-style {
+    vertical-align: middle;
+}
+/* end modal window*/
+
+/* start add new user */
+.addUser {
+    float: right;
+    margin: 2px 0;
+}
+.addForm-input {
+    width: 180px;
+    margin-left: 10px;
+}
+/* end add new user */
+
+.addRelease {
+    margin-bottom: 5px;
+}
+
+.release-group {
+    width: 180px;
+    padding: 0px;
+    float: right;
+    margin-right: 19px;
+}
+
+h2 {
+    font-family: serif;
+    margin: 0px;
+}
+hr {
+    margin: 0px 0 10px 0;
+    border-top: 1px solid #000;
+}
